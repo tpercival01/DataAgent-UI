@@ -1,5 +1,8 @@
 # DataAgent UI: Autonomous Data Analyst Client
 
+**Live Application:** https://data-agent-ui.vercel.app
+**Backend Client Repository:** https://github.com/tpercival01/DataAgent-Core
+
 This Next.js application is a multi modal client built to handle complex payloads from the DataAgent execution engine. It renders raw terminal output, toggleable Python code blocks, and natively displays base64 encoded graphical charts within a continuous conversational interface.
 
 This is the frontend client for the **DataAgent Core** backend architecture.
