@@ -42,3 +42,10 @@ npm install
 npm run dev
 ```
 5. Open your browser and navigate to `http://localhost:3000`.
+
+
+## ⚠️ Live Demo Warning: Backend Cold Starts
+
+The DataAgent Core backend is hosted on Render's free tier. If the application has been idle for more than 15 minutes, the server will go to sleep. 
+
+When you make your first query or upload your first file, the Next.js frontend may show a "Thinking..." or "Uploading..." state for up to 60 seconds while the backend container wakes up. Please be patient. Once the server is awake, execution and chat responses will process in real time.
