@@ -153,7 +153,7 @@ export default function Home() {
       {/* Header */}
       <header className="bg-white dark:bg-zinc-900 border-b border-zinc-200 dark:border-zinc-800 p-4 shrink-0 flex items-center justify-between">
         <h1 className="text-xl font-bold text-zinc-900 dark:text-white">
-          AutoAnalyst
+          DataAgent
         </h1>
         {datasetInfo && (
           <div className="text-sm text-zinc-500 dark:text-zinc-400">
