@@ -1,6 +1,6 @@
 # DataAgent UI: Autonomous Data Analyst Client
 
-**Live Application:** https://data-agent-ui.vercel.app
+**Live Application:** https://dataagent.thomaspercival.dev/
 
 **Backend Client Repository:** https://github.com/tpercival01/DataAgent-Core
 
