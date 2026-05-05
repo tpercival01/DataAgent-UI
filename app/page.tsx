@@ -170,6 +170,36 @@ export default function Home() {
         {!datasetInfo ? (
           // Upload State
           <div className="flex flex-col items-center justify-center h-full w-full max-w-md">
+            <section className="mb-8 text-center">
+              <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-blue-600 dark:text-blue-400">
+                Autonomous data analysis
+              </p>
+            
+              <h2 className="mb-4 text-3xl font-bold tracking-tight text-zinc-900 dark:text-white">
+                Ask questions of a CSV without writing the analysis code yourself.
+              </h2>
+            
+              <p className="mx-auto max-w-xl text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+                DataAgent lets you upload a dataset, ask plain English questions, and receive analytical results, generated Python code, terminal output, and charts through a clean conversational interface.
+              </p>
+            
+              <div className="mt-6 grid gap-3 text-left text-sm text-zinc-600 dark:text-zinc-400 sm:grid-cols-3">
+                <div className="rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
+                  <strong className="block text-zinc-900 dark:text-white">1. Upload</strong>
+                  Add a CSV dataset.
+                </div>
+            
+                <div className="rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
+                  <strong className="block text-zinc-900 dark:text-white">2. Ask</strong>
+                  Query it in plain English.
+                </div>
+            
+                <div className="rounded-lg border border-zinc-200 bg-white p-4 dark:border-zinc-800 dark:bg-zinc-900">
+                  <strong className="block text-zinc-900 dark:text-white">3. Analyse</strong>
+                  Review outputs, code, and charts.
+                </div>
+              </div>
+            </section>
             <div className="bg-white dark:bg-zinc-900 p-8 rounded-xl shadow-lg border border-zinc-200 dark:border-zinc-800 w-full text-center">
               <h2 className="text-xl font-semibold text-zinc-900 dark:text-white mb-4">
                 Upload Dataset
